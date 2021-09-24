@@ -1,0 +1,70 @@
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16pt;
+}
+
+header,
+main,
+footer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+header {
+  background-color: rgb(78, 150, 233);
+}
+
+header img {
+  /*float: right;*/
+  width: 200px;
+  height: auto;
+  /*test below*/
+  display: block;
+  margin: auto auto;
+}
+
+main ul {
+  font-size: 0.8;
+}
+
+h1 {
+  /*Ivan Makarov*/
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  /*WDD230*/
+  font-size: 1rem;
+}
+
+footer {
+  background-color: rgb(78, 150, 233);
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  color: orange;
+}
+/* unvisited link */
+footer a:link {
+  color: blue;
+}
+
+/* visited link */
+footer a:visited {
+  color: white;
+}
+
+/* mouse over link */
+footer a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+footer a:active {
+  color: red;
+}
