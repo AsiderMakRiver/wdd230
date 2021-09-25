@@ -1,0 +1,196 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16pt;
+}
+
+header,
+main,
+footer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+header,
+footer {
+  text-align: center;
+  background-color: rgb(78, 150, 233);
+}
+
+main img {
+  width: 100%;
+}
+
+/*!                         Grid Loyout                         */
+/*!                  Body(header, main, footer)                 */
+.body-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/*!                           Header                            */
+.header-grid {
+  display: grid;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  width: 100%;
+}
+/*!                            Main                             */
+.main-grid {
+  display: grid;
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  background-color: white;
+}
+/*!                          Main Div                           */
+.main-div-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 1em;
+}
+/*!                        Main Sections                        */
+.section-grid-1 {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 1 / 6;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.section-grid-2 {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 1 / 6;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.section-grid-3 {
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 1 / 6;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.section-grid-1,
+.section-grid-2,
+.section-grid-3 {
+  background-color: rgba(114, 213, 216, 0.336);
+}
+
+.heading-grid-1,
+.heading-grid-2,
+.heading-grid-3 {
+  background-color: rgba(31, 187, 192, 0.527);
+  margin-top: -3px;
+  margin-right: -2px;
+  margin-left: -2px;
+  padding-left: 25px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/*TODO                  Need to find out on how to fix it below                      */
+/*!                        Main Headings       1                  */
+/*
+.heading-grid-1 {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.heading-grid-2 {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.heading-grid-3 {
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+/*!                        Main Paragraphs     2                 */
+/*
+.paragraph-grid-1 {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.paragraph-grid-2 {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.paragraph-grid-3 {
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+/*!                           Main Links         3              */
+/*
+.link-grid-1 {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.link-grid-2 {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.link-grid-3 {
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+/*!                          Main Images            4            */
+/*
+.image-grid-1 {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.image-grid-2 {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+.image-grid-3 {
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+/*!                        Main Paragraphs2          5            */
+/*
+.paragraph2-grid-1 {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+.paragraph2-grid-2 {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+}
+
+.paragraph2-grid-3 {
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+}
+
+/*!                           Fotter                            */
+.footer-grid {
+  display: grid;
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  width: 100%;
+}

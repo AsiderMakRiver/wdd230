@@ -6,7 +6,6 @@ document.querySelector("#currentyear").textContent = new Date().getFullYear();
 let lastupdated = document.lastModified;
 document.querySelector("#lastupdated").textContent = lastupdated;
 
-//document.querySelector("#lastupdated").textContent = Last Updated: ${document.lastModified};
 
 /* toLocaleDateString
 const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
