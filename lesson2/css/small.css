@@ -97,6 +97,15 @@ grid-row: 3 / 4;
 
 /*!                        Main Headings       1                  */
 
+.heading-grid-1,
+.heading-grid-2,
+.heading-grid-3 {
+    background-color: rgba(31, 187, 192, 0.527);
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+}
+
 
 /*
 .heading-grid-1 {
@@ -104,7 +113,6 @@ grid-row: 3 / 4;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
-
 
 .heading-grid-2 {
     display: grid;
