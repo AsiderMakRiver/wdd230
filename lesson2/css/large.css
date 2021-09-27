@@ -1,1 +1,9 @@
 @media only screen and (min-width: 775px) {
+  .main-div-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 50px 50px 50px auto 200px;
+    grid-gap: 1em;
+    background-color: rgb(94, 21, 21);
+  }
+}
