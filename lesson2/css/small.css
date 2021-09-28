@@ -18,6 +18,10 @@ footer {
   background-color: #73acfa;
 }
 
+footer a {
+  color: #000000;
+}
+
 main img {
   width: 100%;
 }
