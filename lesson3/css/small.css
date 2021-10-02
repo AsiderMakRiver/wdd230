@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 16pt;
 }
 
@@ -14,182 +14,78 @@ footer {
 header,
 footer {
   text-align: center;
-  background-color: rgb(78, 150, 233);
+  background-color: #72efdd;
 }
 
-main img {
-  width: 100%;
+main {
+  background-color: #64dfdf;
 }
 
-/*!                         Grid Loyout                         */
-/*!                  Body(header, main, footer)                 */
-/*
-.body-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-/*!                           Header                            */
-/*
-.header-grid {
-  display: grid;
-  grid-column: 1 / 4;
-  grid-row: 1 / 2;
-  /*width: 100%;*/
-/*}*/
-/*!                            Main                             */
-/*
-.main-grid {
-  display: grid;
-  grid-column: 1 / 4;
-  grid-row: 2 / 3;
-  
-}
-/*!                          Main Div                           */
-.main-div-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  /*grid-template-rows: 50px 50px 50px auto 200px;
-  grid-gap: 1em;
-  background-color: rgb(94, 21, 21);
-}
-/*!                        Main Sections                        */
-
-  .section-grid-1 {
-    display: grid;
-    grid-column: 1fr;
-    grid-auto-rows: auto;
-  }
-
-  .section-grid-2 {
-    display: grid;
-    grid-column: 1fr;
-    grid-auto-rows: auto;
-  }
-
-  .section-grid-3 {
-    display: grid;
-    grid-column: 1fr;
-    grid-auto-rows: auto;
-  }
-
-  .section-grid-1,
-  .section-grid-2,
-  .section-grid-3 {
-    background-color: rgba(114, 213, 216, 0.336);
-  }
-  /*
-.heading-grid-1,
-.heading-grid-2,
-.heading-grid-3 {
-  background-color: rgba(31, 187, 192, 0.527);
-  margin-top: -3px;
-  margin-right: -2px;
-  margin-left: -2px;
-  padding-left: 25px;
-  border-radius: 10px 10px 0px 0px;
+header img {
+  width: 10%;
+  float: left;
+  border: 1px ridge rgb(187, 255, 0);
+  margin-right: 10px;
 }
 
-/*TODO                  Need to find out on how to fix it below                      */
-  /*!                        Main Headings       1                  */
-  /*
-.heading-grid-1 {
-  display: grid;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
+h1,
+h2 {
+  text-align: left;
 }
 
-.heading-grid-2 {
-  display: grid;
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
+img {
+  max-width: 100%;
 }
 
-.heading-grid-3 {
-  display: grid;
-  grid-column: 3 / 4;
-  grid-row: 1 / 2;
-}
-/*!                        Main Paragraphs     2                 */
-  /*
-.paragraph-grid-1 {
-  display: grid;
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
+nav {
+  background-color: #48bfe3;
 }
 
-.paragraph-grid-2 {
-  display: grid;
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  overflow: hidden;
 }
 
-.paragraph-grid-3 {
-  display: grid;
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-}
-/*!                           Main Links         3              */
-  /*
-.link-grid-1 {
-  display: grid;
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
+nav ul li a {
+  display: block;
+  padding: 0.75rem;
+  text-decoration: none;
 }
 
-.link-grid-2 {
-  display: grid;
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
+nav a:hover {
+  background-color: #5e60ce;
 }
 
-.link-grid-3 {
-  display: grid;
-  grid-column: 3 / 4;
-  grid-row: 3 / 4;
-}
-/*!                          Main Images            4            */
-  /*
-.image-grid-1 {
-  display: grid;
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
+/*Color Schame*/
+.box {
+  float: right;
+  width: 200px;
+  height: 20px;
+  margin: 5px;
+  border: 3px solid #000000;
+  background: #72efdd;
+  text-align: center;
 }
 
-.image-grid-2 {
-  display: grid;
-  grid-column: 2 / 3;
-  grid-row: 4 / 5;
+.box2 {
+  float: right;
+  width: 200px;
+  height: 20px;
+  margin: 5px;
+  border: 3px solid #000000;
+  background: #64dfdf;
+  text-align: center;
 }
 
-.image-grid-3 {
-  display: grid;
-  grid-column: 3 / 4;
-  grid-row: 4 / 5;
-}
-/*!                        Main Paragraphs2          5            */
-  /*
-.paragraph2-grid-1 {
-  display: grid;
-  grid-column: 1 / 2;
-  grid-row: 5 / 6;
-}
-
-.paragraph2-grid-2 {
-  display: grid;
-  grid-column: 2 / 3;
-  grid-row: 5 / 6;
-}
-
-.paragraph2-grid-3 {
-  display: grid;
-  grid-column: 3 / 4;
-  grid-row: 5 / 6;
-}
-
-/*!                           Fotter                            */
-  /*.footer-grid {
-  display: grid;
-  grid-column: 1 / 4;
-  grid-row: 3 / 4;
-  /*width: 100%;*/
+.box3 {
+  float: right;
+  width: 200px;
+  height: 20px;
+  margin: 5px;
+  border: 3px solid #000000;
+  background: #5e60ce;
+  text-align: center;
 }
