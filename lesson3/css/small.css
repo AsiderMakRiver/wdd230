@@ -24,7 +24,7 @@ main {
 header img {
   width: 10%;
   float: left;
-  border: 1px ridge rgb(187, 255, 0);
+  border: 1px ridge #5e60ce;
   margin-right: 10px;
 }
 
@@ -39,6 +39,7 @@ img {
 
 nav {
   background-color: #48bfe3;
+  font-weight: bold;
 }
 
 nav ul {
@@ -53,10 +54,15 @@ nav ul li a {
   display: block;
   padding: 0.75rem;
   text-decoration: none;
+  color: #000000;
 }
 
 nav a:hover {
   background-color: #5e60ce;
+}
+
+a:active {
+  color: red;
 }
 
 /*Color Schame*/
