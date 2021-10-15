@@ -3,9 +3,13 @@ const input = document.querySelector("input");
 const button = document.querySelector("button");
 button.onclick = function () {
   let myItem = input.value;
-  for (; myItem == ""; ) {
-    if (myItem != "") break;
+  while (myItem == "") {
+    myItem = document.getElementById("favchap").placeholder = "You have to write something";
+    list.appendChild();
   }
+  /*for (; myItem == ""; ) {
+    if (myItem != "") break;
+  }*/
   /*for (let i = 0; myItem == ""; i++) {
     document.getElementById("favchap").placeholder = "You have to write something";
   }*/
