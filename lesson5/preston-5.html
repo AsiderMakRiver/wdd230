@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Assignment portal for Makarov Ivan in WDD 230:
+                                    Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <title>Preston</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div id="banner" class="hideBanner">
+      Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion."
+    </div>
+    <header>
+      <img src="images/logo-wheather.png" alt="The wheather logo" />
+      <section class="headings">
+        <h1>No Weather</h1>
+        <q class="motto">There is no bad weather, there is a bad mood!</q>
+      </section>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="home.html">Home</a></li>
+        <li class="active"><a href="preston-5.html">Preston</a></li>
+        <li><a href="soda-springs.html">Soda Springs</a></li>
+        <li><a href="fish-haven.html">Fish Haven</a></li>
+        <li><a href="storm-center.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Preston</h2>
+      <div class="heroDiv">
+        <img class="imgPreston" src="images/prestonImg.jpg" alt="The city photo" />
+        <section class="heroStats">
+          <h2>Wheather Summary</h2>
+          <p>Currently: <span>Sunny</span></p>
+          <p>Hight: <span>76F</span></p>
+          <p>Wind Chill: <span>F</span></p>
+          <p>Humidity: <span>69%</span></p>
+          <p>Wind Speed: <span>5 mph</span></p>
+        </section>
+      </div>
+      <h2>5 Day Forecast</h2>
+      <div class="grid">
+        <div class="grid-col">
+          <span class="col-head">Wed</span>
+          <img src="images/sun.jpg" alt="sun" />
+          <span class="data">89&#8457;</span>
+        </div>
+        <div class="grid-col">
+          <span class="col-head">Thu</span>
+          <img src="images/sun.jpg" alt="sun" />
+          <span class="data">87&#8457;</span>
+        </div>
+        <div class="grid-col">
+          <span class="col-head">Fri</span>
+          <img src="images/sun.jpg" alt="sun" />
+          <span class="data">78&#8457;</span>
+        </div>
+        <div class="grid-col">
+          <span class="col-head">Sat</span>
+          <img src="images/sun.jpg" alt="sun" />
+          <span class="data">75&#8457;</span>
+        </div>
+        <div class="grid-col">
+          <span class="col-head">Sun</span>
+          <img src="images/sun.jpg" alt="sun" />
+          <span class="data">72&#8457;</span>
+        </div>
+      </div>
+      <br />
+      <div class="article">
+        <h3>Lorem ipsum<img src="images/relaxing.jpg" alt="guy relaxing" /></h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates expedita repellat
+          quia sed, corporis voluptate unde facilis sapiente id possimus pr ovident eius incidunt
+          natus molestias! Ea distinctio praesentium voluptas neque. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Excepturi quo ex error praesentium aliquid atque laborum in
+          maiores, ab eos? Atque aperiam laborum cumque eveniet quisquam quaerat possimus.
+          Inventore, repellat!img Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Voluptatibus, reprehenderit incidunt ducimus exercitationem quia minus, dolorem nostrum
+          enim optio saepe, neque dicta repudiandae porro laboriosam explicabo ut quas earum?
+          Aperiam!
+        </p>
+      </div>
+      <br />
+      <div class="grid-test">
+        <div class="grid-contInfo grid-div-p">
+          <h3 class="grid-h3">Contact Information</h3>
+          <div class="grid-p-img">
+            <p class="grid-pp">
+              Aksakovskaya Street 1<br />
+              Primorsky Krai, Russia<br />
+              Vladivostok, PC 690091 <br />
+              <br />
+              &#9742; +375 (25) 777-88-00<br />
+              &#128386; noweather@icloud.com
+            </p>
+            <a
+              href="https://www.google.com/maps/place/Vysota/@43.1191671,131.8941432,17z/data=!4m13!1m7!3m6!1s0x0:0x0!2zNDPCsDA3JzA2LjciTiAxMzHCsDUzJzUzLjkiRQ!3b1!8m2!3d43.118521!4d131.898306!3m4!1s0x5fb392096cdfca45:0xec6e91df9ec10927!8m2!3d43.1193231!4d131.8955523"
+              target="_blank"
+              ><img src="images/map.png" class="grid-img grid-p"
+            /></a>
+            <section class="social">
+              <a href="https://www.facebook.com" target="_blank"
+                ><img src="images/facebook.png" class="grid-img grid-p"
+              /></a>
+              <a href="https://www.instagram.com" target="_blank"
+                ><img src="images/instagram.png" class="grid-img grid-p"
+              /></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><img src="images/youtube.png" class="grid-img grid-p"
+              /></a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy; <span id="lastupdated"></span> | Makarov Ivan | Minsk, Belarus |
+        <a href=" https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+      </p>
+    </footer>
+  </body>
+</html>
