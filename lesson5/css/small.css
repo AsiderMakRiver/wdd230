@@ -3,6 +3,8 @@ body {
   font-size: 16pt;
 }
 
+/********************? Banner*/
+/*Text to be displayed on Friday*/
 #banner {
   margin: 0 auto;
   padding: 1.5rem;
@@ -10,6 +12,10 @@ body {
   border: 1px solid black;
   background-color: yellow;
   text-align: center;
+}
+
+#banner.hideBanner {
+  display: none;
 }
 
 header,
@@ -139,8 +145,8 @@ main div section span {
   align-items: center;
 }
 
-/* Grid */
-.grid {
+/* Forecast Grid */
+.forecast-grid {
   display: none;
 }
 

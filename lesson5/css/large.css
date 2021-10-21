@@ -26,8 +26,8 @@
     margin: 0;
   }
 
-  /* Grid */
-  .grid {
+  /* Forecast Grid */
+  .forecast-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   }
@@ -37,13 +37,13 @@
     text-align: center;
     justify-content: center;
     background-color: #72efdd;
-    color: white;
+    color: black;
     border: 1px solid black;
-    padding: 0;
   }
 
-  .col-head {
-    background-color: rgb(72, 191, 227);
+  .col-head,
+  .data {
+    font-weight: bold;
   }
 
   .article {
@@ -52,8 +52,6 @@
   }
 
   .article img {
-    /*top: 0px;
-    right: 0px;*/
     width: 320px;
     height: 320px;
     float: right;
