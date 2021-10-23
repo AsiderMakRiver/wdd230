@@ -71,7 +71,6 @@
   .data {
     font-weight: bold;
   }
-
   /**********************SECTION*/
   .firtSection {
     border: 1px solid;
@@ -87,6 +86,7 @@
     width: 100%;
   }
   /******************CONTACT INFO*/
+
   .grid-p-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
