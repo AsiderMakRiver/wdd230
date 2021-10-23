@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <script src="js/script.js" defer></script>
     <script src="js/prestonBanner.js" defer></script>
+    <script src="js/windchill.js"></script>
   </head>
   <body>
     <div id="banner" class="">
@@ -57,12 +58,18 @@
           <h2>Wheather Summary</h2>
           <p>Currently: <span>Sunny</span></p>
           <p>
-            Hight: <span><input type="text" /></span>
+            Hight:
+            <span><input id="temperature" type="text" placeholder="Enter the temperature" /></span>
           </p>
-          <p>Wind Chill: <span>F</span></p>
+          <p>
+            Wind Chill:
+            <span><span id="output"></span> F</span
+            ><button type="button" onclick="computeWindChill">Compute</button>
+          </p>
           <p>Humidity: <span>69%</span></p>
           <p>
-            Wind Speed: <span><input type="text" /></span>
+            Wind Speed:
+            <span><input id="windSpeed" type="text" placeholder="Enter the wind speed" /></span>
           </p>
         </section>
       </div>
