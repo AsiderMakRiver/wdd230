@@ -147,8 +147,8 @@ main div section p {
   text-align: left;
 }
 
-main div section span {
-  align-items: center;
+main div section p span {
+  align-items: right;
 }
 
 /************** Forecast Grid */
