@@ -144,14 +144,14 @@ h2 {
 }
 
 main div section p {
-  text-align: center;
+  text-align: left;
 }
 
 main div section span {
   align-items: center;
 }
 
-/* Forecast Grid */
+/************** Forecast Grid */
 .forecast-grid {
   display: none;
 }
