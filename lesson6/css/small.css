@@ -20,7 +20,7 @@ body {
 
 header,
 nav {
-  max-width: auto;
+  max-width: 100%;
   margin: 0 auto;
   padding: 1.5rem;
 }
@@ -148,7 +148,7 @@ main div section p {
 }
 
 main div section p span {
-  align-items: right;
+  text-align: right;
 }
 
 /************** Forecast Grid */
