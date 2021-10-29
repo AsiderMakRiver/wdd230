@@ -182,3 +182,25 @@ section picture.secPhoto img {
   grid-template-columns: auto;
   grid-template-rows: auto;
 }
+
+/*?**************************** Gallery page */
+
+.gridGallery figure img {
+  max-width: 100%;
+}
+
+.gridGallery figure {
+  /* border: 1px dashed rgba(0, 0, 0, 0.26); */
+  margin: 0;
+}
+
+.gridGallery figure figcaption {
+  text-align: center;
+}
+
+.gridGallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 0.3em;
+}
