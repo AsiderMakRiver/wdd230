@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/lazyloading.css" />
+    <script src="js/lazyloading.js" defer></script>
   </head>
   <body>
     <h1>Progressive Loading of Images</h1>
+    <section id="grid">
+      <img data-src="images/img1.jpg" src="images/loading300x400.gif" alt="animal" />
+      <img data-src="images/img2.jpg" src="images/loading300x400.gif" alt="animal" />
+      <img data-src="images/img3.jpg" src="images/loading300x400.gif" alt="animal" />
+      <img data-src="images/img4.jpg" src="images/loading300x400.gif" alt="animal" />
+      <img data-src="images/img5.jpg" src="images/loading300x400.gif" alt="animal" />
+      <img data-src="images/img6.jpg" src="images/loading300x400.gif" alt="animal" />
+    </section>
   </body>
 </html>
