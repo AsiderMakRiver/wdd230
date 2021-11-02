@@ -20,3 +20,13 @@ const navLinks = document.querySelectorAll("nav a").forEach((link) => {
     link.classList.add("active");
   }
 });
+
+//?********Local Storage
+
+localStorage.setItem("name", "bob");
+localStorage.setItem("flex", "bob3");
+localStorage.setItem("flex", "bob7");
+console.log(localStorage.getItem("flex"));
+localStorage.removeItem("name");
+localStorage.removeItem("flex");
+localStorage.setItem("huba", "5 + 5");
