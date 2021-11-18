@@ -248,7 +248,7 @@ form label.top select {
 form label.sbs {
   display: block;
   padding: 0.75rem;
-  color: gray;
+  color: black;
 }
 
 form label.top input:required {
