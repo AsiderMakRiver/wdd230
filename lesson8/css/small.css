@@ -258,3 +258,10 @@ form label.top input:required {
 form label.top input:required:valid {
   border-left: green solid 6px;
 }
+
+#browser {
+  padding: 12px 92px 12px 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: #0000001a;
+}
