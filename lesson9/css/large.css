@@ -97,4 +97,11 @@
   .gridGallery figure figcaption {
     text-shadow: 2px 2px 4px #000000;
   }
+
+  /********************************************* HOME PAGE */
+  .homeInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
 }

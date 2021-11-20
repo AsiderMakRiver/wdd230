@@ -211,13 +211,13 @@ section picture.secPhoto img {
 
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid blue;
+  border: 1px solid rgb(1, 1, 85);
   border-radius: 10px;
   padding: 0.5rem 2%;
 }
 
 form legend {
-  color: blue;
+  color: rgb(1, 1, 85);
   margin: 0 1rem;
   padding: 0 0.5rem;
 }
@@ -226,8 +226,9 @@ form label.top,
 form div {
   display: block;
   padding-top: 1rem;
-  color: blueviolet;
+  color: rgb(81, 21, 138);
   font-size: 0.8rem;
+  font-weight: 900;
 }
 
 form label.top input,
@@ -247,7 +248,7 @@ form label.top select {
 form label.sbs {
   display: block;
   padding: 0.75rem;
-  color: gray;
+  color: black;
 }
 
 form label.top input:required {
@@ -258,8 +259,16 @@ form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
-/*?**************************** Home page */
-.heroImg {
-  max-width: 100%;
-  margin: 0 auto;
+#browser {
+  padding: 12px 92px 12px 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: #0000001a;
+}
+
+/********************************************* HOME PAGE */
+.homeInfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
 }

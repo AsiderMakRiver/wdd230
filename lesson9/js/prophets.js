@@ -31,5 +31,4 @@ fetch(requestURL)
       //   card.appendChild(h2);
       //   document.querySelector("div.cards").appendChild(card);
     }
-    let primg = image.setAttribute("src", prophets[i].imageurl);
   });
