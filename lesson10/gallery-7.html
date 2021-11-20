@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Assignment portal for Makarov Ivan in WDD 230:
+                                    Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="js/script.js" defer></script>
+    <script src="js/lazyloading.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo-wheather.png" alt="The wheather logo" />
+      <section class="headings">
+        <h1>No Weather</h1>
+        <q class="motto">There is no bad weather, there is a bad mood!</q>
+      </section>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston-10.html">Preston</a></li>
+        <li><a href="soda-springs.html">Soda Springs</a></li>
+        <li><a href="fish-haven.html">Fish Haven</a></li>
+        <li><a href="storm-center.html">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Weather Gallery</h2>
+      <section class="gridGallery">
+        <figure>
+          <img
+            class="hoverImg"
+            data-src="imagesGallery/autumn800x450.jpg"
+            src="imagesGallery/loading1280x720.gif"
+            alt="weather picture"
+          />
+          <figcaption>Autum</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="hoverImg"
+            data-src="imagesGallery/christmas_winter800x450.jpg"
+            src="imagesGallery/loading1280x720.gif"
+            alt="weather picture"
+          />
+          <figcaption>Winter</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="hoverImg"
+            data-src="imagesGallery/spring_trees800x450.jpg"
+            src="imagesGallery/loading1280x720.gif"
+            alt="weather picture"
+          />
+          <figcaption>Spring</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="hoverImg"
+            data-src="imagesGallery/hurricane_man_watch800x450.jpg"
+            src="imagesGallery/loading1280x720.gif"
+            alt="weather picture"
+          />
+          <figcaption>Hurricane</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="hoverImg"
+            data-src="imagesGallery/leaf_rain_sad800x450.jpg"
+            src="imagesGallery/loading1280x720.gif"
+            alt="weather picture"
+          />
+          <figcaption>Rain</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="hoverImg"
+            data-src="imagesGallery/lightning_sky800x450.jpg"
+            src="imagesGallery/loading1280x720.gif"
+            alt="weather picture"
+          />
+          <figcaption>Lightning</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="hoverImg"
+            data-src="imagesGallery/snow_windmill_winter800x450.jpg"
+            src="imagesGallery/loading1280x720.gif"
+            alt="weather picture"
+          />
+          <figcaption>Snow Windmill</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="hoverImg"
+            data-src="imagesGallery/summer_field_grass800x450.jpg"
+            src="imagesGallery/loading1280x720.gif"
+            alt="weather picture"
+          />
+          <figcaption>Summer</figcaption>
+        </figure>
+        <figure>
+          <img
+            class="hoverImg"
+            data-src="imagesGallery/fog_trees_mountains800x450.jpg"
+            src="imagesGallery/loading1280x720.gif"
+            alt="weather picture"
+          />
+          <figcaption>Fog</figcaption>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <!--TODO Contact Information and location map-->
+      <p>
+        &copy; <span id="currentyear"></span> | Makarov Ivan | Minsk, Belarus |
+        <a href=" https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+      </p>
+      <p>Last Updated: <span id="lastupdated"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontloader.js"></script>
+  </body>
+</html>

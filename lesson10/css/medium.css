@@ -115,14 +115,8 @@
 
   /********************************************* HOME PAGE */
   .homeInfo {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
   }
-
-  /* figure:nth-child(odd) img {
-    grid-column: 2;
-  }
-
-  figure:nth-child(odd) {
-    grid-row: 1;
-  } */
 }
