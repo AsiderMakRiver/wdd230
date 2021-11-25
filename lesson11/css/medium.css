@@ -1,0 +1,122 @@
+@media only screen and (min-width: 35em) {
+  nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48bfe3+0,5390d9+100 */
+    background: #48bfe3; /* Old browsers */
+    background: -moz-linear-gradient(top, #48bfe3 0%, #5390d9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #48bfe3 0%, #5390d9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #48bfe3 0%,
+      #5390d9 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48bfe3', endColorstr='#5390d9',GradientType=0 ); /* IE6-9 */
+  }
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 0.8rem 1rem;
+  }
+
+  .heroDiv {
+    position: relative;
+  }
+
+  .heroStats {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    border: 1px solid #000;
+    padding: 1rem;
+    font-size: 0.8em;
+    background-color: #72efdd;
+    opacity: 0.9;
+  }
+
+  .heroStats p {
+    margin: 0;
+  }
+
+  /* Forecast Grid */
+  .forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  }
+  .grid-col {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #72efdd;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .col-head,
+  .data {
+    font-weight: bold;
+  }
+  /**********************SECTION*/
+  .firtSection {
+    border: 1px solid;
+  }
+
+  section picture.secPhoto {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+  }
+
+  section picture.secPhoto img {
+    width: 100%;
+  }
+  /******************CONTACT INFO*/
+
+  .grid-p-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .grid-img {
+    display: block;
+    width: 150px;
+    height: 150px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social img {
+    width: 50px;
+    height: 50px;
+  }
+
+  /*?**************************** Gallery page */
+  .gridGallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /********************************************* HOME PAGE */
+  .homeInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
