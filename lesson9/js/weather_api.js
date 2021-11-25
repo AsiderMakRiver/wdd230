@@ -7,7 +7,8 @@ fetch(requestURL)
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const towns = jsonObject["towns"];
     //function test(towns){
-    for (let i = 1; i < 4; i++) {
+    for (let i = 0; i < towns.length; i++) {
+      if (i !== 6 && i !== 0 && i !== 2) continue;
       // The order which I want! 6, 0, 2.
       //****************************************************Declare Variables*************
       let sectionHTML = document.createElement("section");
@@ -26,7 +27,7 @@ fetch(requestURL)
       townFound.textContent = "Year Founded: " + towns[i].yearFounded;
       townCurPopulation.textContent = "Population: " + towns[i].currentPopulation;
       townAvRainFall.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
-      imageHTML.setAttribute("src", towns[i].photo);
+      imageHTML.setAttribute("src", `images/${towns[i].photo}`);
       // *******************************************Push Variables Into the HTML Code******
       sectionHTML.appendChild(articleHTML);
       articleHTML.appendChild(townName);
