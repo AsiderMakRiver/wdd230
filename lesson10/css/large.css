@@ -99,9 +99,22 @@
   }
 
   /********************************************* HOME PAGE */
+  .homeInfoSection figure img {
+    width: 100%;
+  }
+
+  .homeInfoSection {
+    display: block;
+  }
+
   .homeInfo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    grid-gap: 1rem;
   }
+
+  /* .homeInfoSection img {
+    align-self: end;
+  } */
 }

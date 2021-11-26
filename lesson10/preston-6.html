@@ -8,16 +8,20 @@
       content="Assignment portal for Makarov Ivan in WDD 230:
                                     Web Frontend Development at Brigham Young University - Idaho"
     />
-    <title>NoW</title>
+    <title>Preston</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <script src="js/script.js" defer></script>
-    <script src="js/weather_api.js" defer></script>
+    <script src="js/prestonBanner.js" defer></script>
+    <script src="js/windchill.js" defer></script>
   </head>
   <body>
+    <div id="banner" class="">
+      Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion."
+    </div>
     <header>
       <img src="images/logo-wheather.png" alt="The wheather logo" />
       <section class="headings">
@@ -37,9 +41,74 @@
       </ul>
     </nav>
     <main>
-      <h1>Home Page</h1>
-      <div class="homeInfo"></div>
-      <p><a href="home-wireframes.html">Wireframes</a></p>
+      <h2>Preston</h2>
+      <div class="heroDiv">
+        <img
+          class="imgPreston"
+          src="images/preston_1920x932_medium.jpg"
+          alt="The city photo"
+          sizes="100vw"
+          srcset="
+            images/preston_3840x1864_large.jpg 3840w,
+            images/preston_1920x932_medium.jpg 1920w,
+            images/preston_720x349_small.jpg    720w
+          "
+        />
+        <section class="heroStats">
+          <h2>Wheather Summary</h2>
+          <p>Currently: <span>Sunny</span></p>
+          <p>Hight: <span id="temperature">76</span>F</p>
+          <p>
+            Wind Chill: <span><span id="output"></span>F</span>
+          </p>
+          <p>Humidity: <span>69%</span></p>
+          <p>Wind Speed: <span id="windSpeed">5</span>mph</p>
+        </section>
+      </div>
+      <h2>5 Day Forecast</h2>
+      <div class="forecast-grid">
+        <div class="grid-col">
+          <span class="col-head">Wed</span>
+          <img src="images/sun.jpg" alt="sun" />
+          <span class="data">89&#8457;</span>
+        </div>
+        <div class="grid-col">
+          <span class="col-head">Thu</span>
+          <img src="images/sun.jpg" alt="sun" />
+          <span class="data">87&#8457;</span>
+        </div>
+        <div class="grid-col">
+          <span class="col-head">Fri</span>
+          <img src="images/sun.jpg" alt="sun" />
+          <span class="data">78&#8457;</span>
+        </div>
+        <div class="grid-col">
+          <span class="col-head">Sat</span>
+          <img src="images/sun.jpg" alt="sun" />
+          <span class="data">75&#8457;</span>
+        </div>
+        <div class="grid-col">
+          <span class="col-head">Sun</span>
+          <img src="images/sun.jpg" alt="sun" />
+          <span class="data">72&#8457;</span>
+        </div>
+      </div>
+      <br />
+      <section class="firtSection">
+        <picture class="secPhoto">
+          <img src="images/relaxing.jpg" alt="guy relaxing" />
+        </picture>
+        <h3>Article title</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates expedita repellat quia sed, corporis
+          voluptate unde facilis sapiente id possimus pr ovident eius incidunt natus molestias! Ea distinctio
+          praesentium voluptas neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quo ex
+          error praesentium aliquid atque laborum in maiores, ab eos? Atque aperiam laborum cumque eveniet quisquam
+          quaerat possimus. Inventore, repellat!img Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Voluptatibus, reprehenderit incidunt ducimus exercitationem quia minus, dolorem nostrum enim optio saepe,
+          neque dicta repudiandae porro laboriosam explicabo ut quas earum? Aperiam!
+        </p>
+      </section>
       <br />
       <div class="grid-test">
         <div class="grid-contInfo grid-div-p">
@@ -74,12 +143,10 @@
       </div>
     </main>
     <footer>
-      <!--TODO Contact Information and location map-->
       <p>
-        &copy; <span id="currentyear"></span> | Makarov Ivan | Minsk, Belarus |
+        &copy; <span id="lastupdated"></span> | Makarov Ivan | Minsk, Belarus |
         <a href=" https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
       </p>
-      <p>Last Updated: <span id="lastupdated"></span></p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontloader.js"></script>

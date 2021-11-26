@@ -85,7 +85,7 @@ nav button {
 }
 
 nav {
-  background-color: rgb(72, 191, 227);
+  background-color: #03c2fc;
   font-weight: bold;
   padding: 0 24px;
 }
@@ -267,8 +267,52 @@ form label.top input:required:valid {
 }
 
 /********************************************* HOME PAGE */
+.homeInfoSection figure img {
+  width: 100%;
+}
+
+.homeInfoSection {
+  display: block;
+}
+
 .homeInfo {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+
+.homeInfoSection figure {
+  margin: 0;
+}
+
+.homeInfoSection article h2,
+.homeInfoSection article p,
+.homeInfoSection aside p {
+  text-align: center;
+}
+
+.homeInfoSection article p {
+  margin: 0.1rem 0 0.2rem 0;
+  padding: 0.2rem;
+}
+
+.homeInfoSection aside p {
+  margin: 0.5rem 0 0 0;
+}
+
+/*******************************?DECORATIONS*/
+.homeInfo section article h2,
+.homeInfo section aside p {
+  font-family: cursive;
+  color: #854c3d;
+}
+
+.homeInfo section article p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.homeInfo section {
+  background-color: #72efdd;
 }

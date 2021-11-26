@@ -21,6 +21,8 @@ fetch(requestURL)
       let townAvRainFall = document.createElement("p");
       let figureHTML = document.createElement("figure");
       let imageHTML = document.createElement("img");
+      let figcaption = document.createElement("figcaption");
+      // let altForImg = "picture of city";
       //****************************************************Assign Variables***************
       townName.textContent = towns[i].name;
       townMotto.textContent = towns[i].motto;
@@ -38,8 +40,8 @@ fetch(requestURL)
       asideHTML.appendChild(townAvRainFall);
       sectionHTML.appendChild(figureHTML);
       figureHTML.appendChild(imageHTML);
-      document.querySelector("div.homeInfo").appendChild(sectionHTML);
+      figureHTML.appendChild(figcaption).classList.add("alt");
+      document.querySelector("div.homeInfo").appendChild(sectionHTML).classList.add("homeInfoSection");
+      // document.querySelector("figcapture.alt").appendChild(altForImg);
     }
-    //}
-    //test(towns[6]);
   });
