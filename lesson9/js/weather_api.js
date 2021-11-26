@@ -38,7 +38,7 @@ fetch(requestURL)
       asideHTML.appendChild(townAvRainFall);
       sectionHTML.appendChild(figureHTML);
       figureHTML.appendChild(imageHTML);
-      document.querySelector("div.homeInfo").appendChild(sectionHTML);
+      document.querySelector("div.homeInfo").appendChild(sectionHTML).classList.add("homeInfoSection");
     }
     //}
     //test(towns[6]);
