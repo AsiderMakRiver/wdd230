@@ -133,6 +133,12 @@ nav ul.hide {
 
 h2 {
   margin: 0;
+  color: #854c3d;
+}
+
+h3 {
+  color: #854c3d;
+  font-weight: bold;
 }
 
 .heroStats {
@@ -282,6 +288,7 @@ form label.top input:required:valid {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 1rem;
+  margin: 0 0 2% 0;
 }
 
 .homeInfoSection figure {
@@ -303,7 +310,7 @@ form label.top input:required:valid {
   margin: 0.5rem 0 0 0;
 }
 
-/*******************************?DECORATIONS*/
+/*******************************?DECORATIONS FOR HOME PAGE*/
 .homeInfo section article h2,
 .homeInfo section aside p {
   font-family: cursive;
