@@ -17,7 +17,7 @@ body {
 #banner.hideBanner {
   display: none;
 }
-
+/****************?GENERAL STYLING*/
 header,
 nav {
   max-width: 100%;
@@ -75,7 +75,7 @@ headings {
   flex-direction: column;
 }
 
-/*TODO************ Navigation**********/
+/*****************? Navigation**********/
 nav button {
   margin: 0.2rem 2%;
   background-color: transparent;
@@ -116,15 +116,19 @@ nav ul.hide {
   display: none;
 }
 
-/*----- Clearfix: Force an Element not to collapse -----*/
+/***********! Clearfix: Force an Element not to collapse *********/
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
-/************************ main */
-.heroDiv {
-  margin: 10px auto;
+/************************? MAIN */
+.heroImg {
+  margin: 2% auto;
+}
+
+.heroImg img {
+  border-radius: 8px;
 }
 
 h2 {
@@ -184,7 +188,6 @@ section picture.secPhoto img {
 }
 
 /*?**************************** Gallery page */
-
 .gridGallery figure img {
   max-width: 100%;
 }
@@ -206,7 +209,6 @@ section picture.secPhoto img {
 }
 
 /*?**************************** Storm Center page */
-
 /*?----------- FORM --------------*/
 
 form fieldset {

@@ -8,10 +8,6 @@
     padding: 0;
   }
 
-  .heroDiv {
-    position: relative;
-  }
-
   .heroStats {
     position: absolute;
     top: 25px;
