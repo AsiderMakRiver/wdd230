@@ -1,16 +1,4 @@
 @media only screen and (min-width: 35em) {
-  nav {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48bfe3+0,5390d9+100 */
-    background: #48bfe3; /* Old browsers */
-    background: -moz-linear-gradient(top, #48bfe3 0%, #5390d9 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #48bfe3 0%, #5390d9 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(
-      to bottom,
-      #48bfe3 0%,
-      #5390d9 100%
-    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48bfe3', endColorstr='#5390d9',GradientType=0 ); /* IE6-9 */
-  }
   nav button {
     display: none;
   }
@@ -69,7 +57,7 @@
   }
   /**********************SECTION*/
   .firtSection {
-    border: 1px solid;
+    box-shadow: 0px 0px #099b85, -0.1em 0 0.4em #0fa58e;
   }
 
   section picture.secPhoto {
@@ -82,6 +70,9 @@
     width: 100%;
   }
   /******************CONTACT INFO*/
+  .grid-contInfo {
+    box-shadow: 0px 0px #099b85, -0.1em 0 0.4em #0fa58e;
+  }
 
   .grid-p-img {
     display: grid;
@@ -114,9 +105,62 @@
   }
 
   /********************************************* HOME PAGE */
+  .homeInfoSection figure img {
+    width: 100%;
+  }
+
   .homeInfo {
+    grid-gap: 0;
+  }
+
+  .homeInfoSection {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+  }
+
+  .homeInfoSection article {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: start;
+  }
+
+  .homeInfoSection aside {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+  }
+
+  .homeInfoSection figure {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+  }
+
+  .homeInfoSection article h2 {
+    margin: 0 0 0.1rem 0;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .homeInfoSection article p {
+    margin: 0 0 0.1rem 0;
+    padding: 0.2rem;
+    text-align: center;
+  }
+
+  .homeInfoSection aside p {
+    margin: 0.1rem 0 0 0;
+    padding: 0.1rem;
+    text-align: center;
+  }
+
+  /**********************?Checkerboard order*/
+  .homeInfoSection:nth-child(2) figure {
+    grid-column: 1;
+  }
+
+  .homeInfoSection:nth-child(2) article,
+  .homeInfoSection:nth-child(2) aside {
+    grid-column: 2;
   }
 }

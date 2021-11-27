@@ -204,3 +204,7 @@ section picture.secPhoto img {
   grid-template-rows: auto;
   grid-gap: 0.3em;
 }
+
+#visitext {
+  text-align: right;
+}

@@ -1,3 +1,8 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16pt;
+}
+
 /********************? Banner*/
 /*Text to be displayed on Friday*/
 #banner {
@@ -11,11 +16,6 @@
 
 #banner.hideBanner {
   display: none;
-}
-/********************? Basic*/
-body {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 16pt;
 }
 
 header,
@@ -40,7 +40,7 @@ footer {
 main {
   background-color: #64dfdf;
   margin: 0 auto;
-  padding: 0 2%;
+  padding: 0 2% 2% 2%;
 }
 
 header {
@@ -85,7 +85,7 @@ nav button {
 }
 
 nav {
-  background-color: rgb(72, 191, 227);
+  background-color: #03c2fc;
   font-weight: bold;
   padding: 0 24px;
 }
@@ -157,7 +157,7 @@ main div section p span {
 }
 /**********************SECTION*/
 .firtSection {
-  border: 1px solid;
+  background-color: #72efdd;
 }
 
 section picture.secPhoto {
@@ -169,13 +169,13 @@ section picture.secPhoto {
 section picture.secPhoto img {
   width: 100%;
 }
+
 /******************CONTACT INFO*/
 .grid-img {
   display: none;
 }
 
 .grid-contInfo {
-  border: 1px solid black;
   background-color: #72efdd;
   text-align: center;
   display: grid;
@@ -267,8 +267,52 @@ form label.top input:required:valid {
 }
 
 /********************************************* HOME PAGE */
+.homeInfoSection figure img {
+  width: 100%;
+}
+
+.homeInfoSection {
+  display: block;
+}
+
 .homeInfo {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+
+.homeInfoSection figure {
+  margin: 0;
+}
+
+.homeInfoSection article h2,
+.homeInfoSection article p,
+.homeInfoSection aside p {
+  text-align: center;
+}
+
+.homeInfoSection article p {
+  margin: 0.1rem 0 0.2rem 0;
+  padding: 0.2rem;
+}
+
+.homeInfoSection aside p {
+  margin: 0.5rem 0 0 0;
+}
+
+/*******************************?DECORATIONS*/
+.homeInfo section article h2,
+.homeInfo section aside p {
+  font-family: cursive;
+  color: #854c3d;
+}
+
+.homeInfo section article p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.homeInfo section {
+  background-color: #72efdd;
 }
