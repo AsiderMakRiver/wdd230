@@ -47,7 +47,7 @@
   }
   /**********************SECTION*/
   .firtSection {
-    border: 1px solid;
+    /* box-shadow: 0px 0px #099b85, -0.1em 0 0.4em #0fa58e; */
   }
 
   section picture.secPhoto {
@@ -60,7 +60,6 @@
     width: 100%;
   }
   /******************CONTACT INFO*/
-
   .grid-test {
     display: grid;
     grid-template-columns: 1fr;
@@ -99,9 +98,22 @@
   }
 
   /********************************************* HOME PAGE */
+  .homeInfoSection figure img {
+    width: 100%;
+  }
+
+  .homeInfoSection {
+    display: block;
+  }
+
   .homeInfo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    grid-gap: 1rem;
   }
+
+  /* .homeInfoSection img {
+    align-self: end;
+  } */
 }
