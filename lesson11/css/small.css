@@ -32,9 +32,12 @@ footer {
   padding: 1.5rem;
 }
 
-header,
-footer {
+header {
   background-color: #72efdd;
+}
+
+footer {
+  background-color: #03c2fc;
 }
 
 main {
