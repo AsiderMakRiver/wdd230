@@ -12,13 +12,11 @@ function computeWindChill() {
   let t = 50;
   let s = 5;
   if (t <= 50 && s >= 3) {
-    let f = parseInt(
-      35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16)
-    );
+    let f = parseInt(35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16));
     return f;
   } else {
     return NaN;
   }
 }
 let f = computeWindChill();
-document.getElementById("output").innerHTML = f;
+document.getElementById("windChill").innerHTML = f;

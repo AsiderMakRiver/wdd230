@@ -15,16 +15,16 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const towns = jsonObject["towns"];
     // console.log(towns);
-    // console.log(towns[6].events);
+    // console.log(towns[2].events);
     //****************************************************Declare Variables*************
     let sectionHTML = document.createElement("section");
     let townEvent1 = document.createElement("p");
     let townEvent2 = document.createElement("p");
     let townEvent3 = document.createElement("p");
     //****************************************************Assign Variables***************
-    townEvent1.textContent = towns[6].events[0];
-    townEvent2.textContent = towns[6].events[1];
-    townEvent3.textContent = towns[6].events[2];
+    townEvent1.textContent = towns[2].events[0];
+    townEvent2.textContent = towns[2].events[1];
+    townEvent3.textContent = towns[2].events[2];
     // *******************************************Push Variables Into the HTML Code******
     sectionHTML.appendChild(townEvent1);
     sectionHTML.appendChild(townEvent2);
