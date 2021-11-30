@@ -353,6 +353,6 @@ main section#weatherforecast div {
 }
 
 main section#weatherforecast span {
-  /* color: #2931a7; */
+  color: #2931a7;
   font-weight: bold;
 }
