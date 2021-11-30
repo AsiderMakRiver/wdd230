@@ -334,21 +334,17 @@ form label.top input:required:valid {
   background-color: #72efdd;
 }
 
-/**********************? Five day forecast */
+/*********************! Five day forecast */
 main section#weatherforecast {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 0.1rem;
   background-color: #72efdd;
-
-  border: 2px solid black;
 }
 
 main section#weatherforecast div {
   /* place-self: center; */
   justify-self: center;
-  /* border: 1px solid black; */
-  /* background-color: #03c2fc; */
 }
 
 main section#weatherforecast span {
