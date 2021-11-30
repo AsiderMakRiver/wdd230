@@ -282,6 +282,11 @@ form label.top input:required:valid {
   background-color: #0000001a;
 }
 
+#ratingvalue {
+  font-weight: 900;
+  color: black;
+}
+
 /********************************************* HOME PAGE */
 .homeInfoSection figure img {
   width: 100%;
