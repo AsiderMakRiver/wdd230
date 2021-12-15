@@ -204,27 +204,27 @@ nav ul.hide {
   /* justify-self: center; */
 }
 
-#homeEventsGridCellDate {
+.homeEventsGridCellDate {
   background-color: #d62828;
   color: white;
   text-align: center;
   /* padding: 1rem; */
 }
 
-#homeEventsGridCellName {
+.homeEventsGridCellName {
   background-color: #f77f00;
   color: white;
   text-align: center;
 }
 
-#homeEventsGridCellParticipate {
+.homeEventsGridCellParticipate {
   background-color: #003049;
   color: white;
   text-align: center;
   /* padding: 0; */
 }
 
-#homeEventsGridCellParticipate a {
+.homeEventsGridCellParticipate a {
   color: white;
 }
 
