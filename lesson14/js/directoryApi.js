@@ -24,10 +24,10 @@ fetch(requestURL)
       // let altForImg = "picture of city";
       //****************************************************Assign Variables***************
       townName.textContent = localBusiness[i].name;
-      townMotto.textContent = localBusiness[i].motto;
-      townFound.textContent = "Year Founded: " + localBusiness[i].yearFounded;
-      townCurPopulation.textContent = "Population: " + localBusiness[i].currentPopulation;
-      townAvRainFall.textContent = "Annual Rain Fall: " + localBusiness[i].averageRainfall;
+      // townMotto.textContent = localBusiness[i].motto;
+      // townFound.textContent = "Year Founded: " + localBusiness[i].yearFounded;
+      // townCurPopulation.textContent = "Population: " + localBusiness[i].currentPopulation;
+      // townAvRainFall.textContent = "Annual Rain Fall: " + localBusiness[i].averageRainfall;
       imageHTML.setAttribute("src", `images/${localBusiness[i].photo}`);
       // *******************************************Push Variables Into the HTML Code******
       sectionHTML.appendChild(articleHTML);
